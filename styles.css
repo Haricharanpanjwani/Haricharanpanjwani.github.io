@@ -110,18 +110,19 @@ body::before {
   margin: 0;
   font-family: "Fraunces", serif;
   font-weight: 700;
-  line-height: 1.02;
+  line-height: 1.06;
 }
 
 .hero-copy h1 {
-  font-size: clamp(2.7rem, 5vw, 5.3rem);
-  max-width: 12ch;
+  font-size: clamp(2.1rem, 3.6vw, 3.9rem);
+  max-width: 13ch;
+  letter-spacing: -0.02em;
 }
 
 .eyebrow {
   margin: 0 0 14px;
-  font-size: 0.84rem;
-  letter-spacing: 0.16em;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--warm);
   font-weight: 800;
@@ -129,8 +130,8 @@ body::before {
 
 .lede {
   max-width: 62ch;
-  font-size: 1.06rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.75;
   color: var(--muted);
 }
 
@@ -231,6 +232,10 @@ body::before {
 
 .four-up {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.compact-grid {
+  margin-top: 18px;
 }
 
 .card {
