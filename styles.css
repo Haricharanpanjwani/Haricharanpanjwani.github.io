@@ -358,6 +358,11 @@ body::before {
   margin: 4px 0 8px;
 }
 
+.timeline-link-note {
+  margin-top: 10px !important;
+  font-size: 0.94rem;
+}
+
 .timeline-status {
   font-size: 0.8rem;
   text-transform: uppercase;
