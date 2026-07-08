@@ -239,6 +239,10 @@ body::before {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.strengths-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
 .compact-grid {
   margin-top: 18px;
 }
