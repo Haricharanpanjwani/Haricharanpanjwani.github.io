@@ -181,6 +181,18 @@ body::before {
   border: 1px solid rgba(15, 118, 110, 0.12);
 }
 
+.profile-photo {
+  display: block;
+  width: 132px;
+  height: 132px;
+  margin-bottom: 18px;
+  border-radius: 24px;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid rgba(15, 118, 110, 0.12);
+  box-shadow: 0 14px 30px rgba(77, 60, 32, 0.12);
+}
+
 .hero-panel h2 {
   margin-top: 0;
   margin-bottom: 18px;
@@ -273,6 +285,10 @@ body::before {
   margin-bottom: 16px;
 }
 
+.judge-intro {
+  margin-top: 20px;
+}
+
 .review-tags {
   display: flex;
   flex-wrap: wrap;
@@ -361,6 +377,16 @@ body::before {
 .timeline-link-note {
   margin-top: 10px !important;
   font-size: 0.94rem;
+}
+
+.timeline-link-note a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.timeline-link-note a:hover {
+  text-decoration: underline;
 }
 
 .timeline-status {
