@@ -289,6 +289,38 @@ body::before {
   letter-spacing: 0.01em;
 }
 
+.highlight-card {
+  background: linear-gradient(180deg, rgba(255, 248, 238, 0.94), rgba(233, 248, 244, 0.9));
+}
+
+.recognition-stack {
+  display: grid;
+  gap: 14px;
+}
+
+.recognition-item {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(15, 118, 110, 0.12);
+}
+
+.recognition-label {
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--warm);
+  font-weight: 800;
+}
+
+.recognition-value {
+  font-size: 1rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
 .accent-card {
   background:
     linear-gradient(180deg, rgba(216, 238, 231, 0.7), rgba(255, 255, 255, 0.8));
