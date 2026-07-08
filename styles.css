@@ -114,18 +114,21 @@ body::before {
 }
 
 .hero-copy h1 {
-  font-size: clamp(2.1rem, 3.6vw, 3.9rem);
-  max-width: 13ch;
+  font-size: clamp(1.85rem, 3vw, 3.1rem);
+  max-width: 15ch;
   letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 
 .eyebrow {
   margin: 0 0 14px;
-  font-size: 0.8rem;
-  letter-spacing: 0.14em;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--warm);
   font-weight: 800;
+  max-width: 52ch;
+  line-height: 1.6;
 }
 
 .lede {
@@ -181,22 +184,38 @@ body::before {
   border: 1px solid rgba(15, 118, 110, 0.12);
 }
 
+.panel-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
 .profile-photo {
   display: block;
-  width: 132px;
-  height: 132px;
-  margin-bottom: 18px;
-  border-radius: 24px;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  border-radius: 999px;
   object-fit: cover;
   object-position: center top;
   border: 1px solid rgba(15, 118, 110, 0.12);
-  box-shadow: 0 14px 30px rgba(77, 60, 32, 0.12);
+  box-shadow: 0 10px 24px rgba(77, 60, 32, 0.14);
 }
 
 .hero-panel h2 {
   margin-top: 0;
-  margin-bottom: 18px;
+  margin-bottom: 0;
   font-size: 1.1rem;
+}
+
+.panel-kicker {
+  margin: 0 0 4px;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--warm);
+  font-weight: 800;
 }
 
 .metrics {
@@ -204,19 +223,20 @@ body::before {
   padding: 0;
   list-style: none;
   display: grid;
-  gap: 18px;
+  gap: 20px;
 }
 
 .metric-value {
   display: block;
   font-family: "Fraunces", serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(--accent);
 }
 
 .metric-label {
   color: var(--muted);
-  line-height: 1.5;
+  line-height: 1.55;
+  margin-top: 2px;
 }
 
 .section {
