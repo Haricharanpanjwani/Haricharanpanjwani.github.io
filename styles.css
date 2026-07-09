@@ -491,6 +491,16 @@ body::before {
   margin-bottom: 0;
 }
 
+.contribution-list a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contribution-list a:hover {
+  text-decoration: underline;
+}
+
 .contact-strip {
   margin-bottom: 24px;
   display: flex;
