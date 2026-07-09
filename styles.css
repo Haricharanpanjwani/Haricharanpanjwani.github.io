@@ -138,6 +138,15 @@ body::before {
   color: var(--muted);
 }
 
+.hero-callout {
+  margin-top: 18px;
+  max-width: 54ch;
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -254,6 +263,13 @@ body::before {
   max-width: 16ch;
 }
 
+.section-intro {
+  max-width: 70ch;
+  margin: 0 0 24px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
 .cards {
   display: grid;
   gap: 18px;
@@ -299,6 +315,10 @@ body::before {
   margin: 0;
   line-height: 1.7;
   color: var(--muted);
+}
+
+.compact-card {
+  min-height: 100%;
 }
 
 .review-intro {
@@ -371,6 +391,24 @@ body::before {
   gap: 16px;
 }
 
+.split-timeline {
+  display: grid;
+  gap: 22px;
+}
+
+.timeline-group {
+  display: grid;
+  gap: 12px;
+}
+
+.group-label {
+  margin: 0;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 800;
+}
+
 .timeline-item {
   position: relative;
   padding: 24px 24px 24px 28px;
@@ -392,6 +430,12 @@ body::before {
 
 .timeline-item h3 {
   margin: 4px 0 8px;
+}
+
+.paper-title {
+  margin-bottom: 10px !important;
+  color: var(--ink) !important;
+  font-weight: 700;
 }
 
 .timeline-link-note {
@@ -430,6 +474,21 @@ body::before {
   border-left: 5px solid var(--accent);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   background: rgba(15, 118, 110, 0.06);
+}
+
+.bullet-list {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.bullet-list li {
+  margin: 0 0 12px;
+  line-height: 1.7;
+}
+
+.bullet-list li:last-child {
+  margin-bottom: 0;
 }
 
 .contact-strip {
@@ -510,6 +569,10 @@ body::before {
   }
 
   .hero-copy h1 {
+    max-width: none;
+  }
+
+  .section-heading h2 {
     max-width: none;
   }
 
